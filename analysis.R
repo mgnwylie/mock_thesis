@@ -9,3 +9,5 @@ filter(data, GEO %in% c("Alberta","Prince Edward Island")) %>%
   geom_line(aes(color = GEO)) +
   labs(x = "Year", y = "Household income per capita") +
   theme_bw() 
+
+data
